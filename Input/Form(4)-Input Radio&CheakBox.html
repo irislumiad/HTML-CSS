@@ -1,0 +1,110 @@
+Radio
+
+<input type="radio" id="subscribed" >
+<label for="subscribed">구독중</label>
+
+<input type="radio" id="unsubscribed" >
+<label for="unsubscribed">미구독중</label>
+
+
+-----------------------------------------------------------------------
+묶을려면 (안묶으면 중복으로 눌림) name
+
+<input type="radio" name="goodok" id="subscribed" >
+<label for="subscribed">구독중</label>
+
+<input type="radio" name="goodok" id="unsubscribed" >
+<label for="unsubscribed">미구독중</label>
+
+
+
+-----------------------------------------------------------------------
+
+<form action="" method="GET">
+
+<input type="radio" name="goodok" id="subscribed" >
+<label for="subscribed">구독중</label>
+
+<input type="radio" name="goodok" id="unsubscribed" >
+<label for="unsubscribed">미구독중</label>
+
+<button type="submit">
+
+    Submit
+
+</button>
+
+</form>
+
+-----------------------------------------------------------------------
+
+구독 미구독을 구분하기 위한 value  (필수)
+
+<form action="" method="GET">
+
+    <input type="radio" name="goodok" value="goodok" id="subscribed" >
+    <label for="subscribed">구독중</label>
+    
+    <input type="radio" name="goodok" value="ungoodok" id="unsubscribed" >
+    <label for="unsubscribed">미구독중</label>
+    
+    <button type="submit">
+    
+        Submit
+    
+    </button>
+    
+    </form>
+
+-----------------------------------------------------------------------
+
+
+CheakBox
+
+<h1>
+사용 가능 언어
+</h1>
+<form>
+
+<input type="CheakBox" id="html" />
+    <label for="html">Html</label >
+<input type="checkbox" id="css" />
+    <label for="css">css</label>
+<input type="checkbox" id="java"/>
+<label for="java">Java</label> 
+
+<button type="submit">
+    
+    Submit
+
+</button>
+
+</form>
+
+-----------------------------------------------------------------------
+
+
+
+CheakBox
+
+<h1>
+사용 가능 언어
+</h1>
+<form>
+
+<input type="CheakBox" name="cheak" value="0" id="html" />
+    <label for="html">Html</label >
+<input type="checkbox" name="cheak" value="1" id="css" />
+    <label for="css">css</label>
+<input type="checkbox" name="cheak" value="2" id="java"/>
+    <label for="java">Java</label> 
+
+    <button type="submit">
+    
+        Submit
+    
+    </button>
+
+</form>
+
+
