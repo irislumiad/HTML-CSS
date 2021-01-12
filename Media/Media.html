@@ -1,0 +1,60 @@
+<img src="#" alt=""/>
+
+
+------------------------------------------------------
+
+
+<audio src="./assets/audios/Kimbug.mp3" controls></audio>        // controls 사용해야 뜸 컨트롤러임
+
+
+<audio src="./assets/audios/Kimbug.mp3" autoplay></audio>        // controls 를 보여주고 싶지 않지만 재생하고 싶을때 autoplay
+
+
+<audio src="./assets/audios/Kimbug.mp3" loop autoplay></audio>        // loop 반복재생 
+
+
+<audio controls>                                               //  인터넷 검색엔진 에 따라 mp3 wav ogg 지원하는게 달라서 3개중에 골라서 실행되게끔 
+
+    <source src="./assets/audios/kimbug.wav"
+    type="audio/wav"/>
+
+    <source src="./assets/audios/kimbug.mp3"
+    type="audio/mpeg"/>
+
+    <source src="./assets/audios/kimbug.ogg"
+    type="audio/ogg"/>
+    
+    <p>                                                         // 어떤것도 지원이 안될때 문구
+        당신의 브라우저를 버리시고 크롬을 사용하시는게 어떨까요?
+    </p>
+
+</audio>
+
+
+------------------------------------------------------
+
+<video src="./assets/videos/kimbug.mov"></video>
+
+<video controls src="./assets/videos/kimbug.mov"></video> // controls 사용해야 컨트롤러 뜬다;
+
+<video controls>
+    
+    <source src = "./assets/videos/kimbug.mov" type="video/mp4"/>
+    <source src = "./assets/videos/kimbug.mp4" type="video/mp4"/>   
+
+    <p>
+        브라우저를 업데이트 하심이 어떠신지요?
+    </p>
+    <a href="https://browsehappy.com/" target="_blank">   //  브라우저 업데이트 링크 걸어주기;
+        브라우저 업데이트 하기
+    </a>
+
+</video>
+
+-----------------------------------------------------
+
+<iframe src="httP://edu.goorm.io" 
+frameborder = "0"></iframe>
+
+
+
