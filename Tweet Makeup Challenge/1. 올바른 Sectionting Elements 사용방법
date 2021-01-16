@@ -1,0 +1,48 @@
+section = 구획 
+
+article = 블로그 글이나 뉴스기사 트위트 피드 같은 정보 피드 완결성이 있는 정보 컨텐츠에 사용 
+
+nav = 글로벌 네비게이션 바 쓸때 사용 
+
+aside
+
+
+
+------------------------------------------
+
+Sectioning elements = 단원
+
+주제나 제목
+
+
+
+<Sectioning element> -> section, article, nav, aside
+
+   <heading>  = 반드시 있어야 한다.
+
+  
+
+1. <section>
+
+ <h1> 섹션의 제목 </h1>
+
+  <p>.....</p>
+
+   </section>
+
+
+2. <nav>
+     
+    <h1> 메뉴 </h1>     = 이걸 명시적으로 써줘야 함 
+
+    <ul>
+     
+     <li>
+    
+      <a href="#> 링크 </a>
+
+     </li>
+
+    </ul>
+
+   </nav>

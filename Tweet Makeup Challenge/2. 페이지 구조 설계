@@ -1,0 +1,17 @@
+쪼개기 말고 
+
+
+
+1. 구획나누기 (크게크게)\
+
+2. 적절한 Sectioning elements 정해주기
+
+  section = 구획 
+
+  article
+
+  nav = 글로벌 네비게이션 바 쓸때 사용 
+
+  aside
+
+
